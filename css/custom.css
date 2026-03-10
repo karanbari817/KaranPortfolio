@@ -136,3 +136,233 @@
     border-color: #4a9eff;
     color: #fff;
 }
+
+/* =============================================
+   HERO PROFILE IMAGE (bg_1.png as <img>)
+   ============================================= */
+.hero-profile-img {
+    max-height: 420px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    display: block;
+    margin-top: auto;
+}
+
+.hero-img-col {
+    min-height: 200px;
+}
+
+/* =============================================
+   MOBILE RESPONSIVE OVERRIDES
+   ============================================= */
+
+/* ---------- Tablets & below (≤768px) ---------- */
+@media (max-width: 768px) {
+
+    /* --- Hero Section --- */
+    .owl-carousel.home-slider,
+    .owl-carousel.home-slider .slider-item {
+        height: auto !important;
+        min-height: auto !important;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text {
+        height: auto !important;
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 32px !important;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h2 {
+        font-size: 16px !important;
+        line-height: 1.5;
+    }
+
+    #typing-animation {
+        font-size: 18px !important;
+    }
+
+    .hero-profile-img {
+        max-height: 300px;
+        margin: 0 auto;
+    }
+
+    .hero-img-col {
+        min-height: 150px;
+        justify-content: center !important;
+    }
+
+    /* --- About Section --- */
+    .ftco-about .img-about {
+        margin-bottom: 20px;
+    }
+
+    .ftco-about .col-md-6.col-lg-5,
+    .ftco-about .col-md-6.col-lg-7 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .about-info li {
+        flex-direction: column !important;
+    }
+
+    .about-info li span:first-child {
+        margin-bottom: 2px;
+        font-weight: 700;
+    }
+
+    /* --- Skills Section --- */
+    .skills-section {
+        padding: 40px 0;
+    }
+
+    .skill-card {
+        padding: 18px;
+        margin-bottom: 20px;
+    }
+
+    .skill-card-title {
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .skill-pill {
+        font-size: 12px;
+        padding: 5px 12px;
+    }
+
+    /* --- Education big-4 heading --- */
+    .big-4 {
+        font-size: 28px !important;
+        transform: none !important;
+    }
+
+    /* --- Resume / Experience --- */
+    .resume-wrap {
+        padding: 20px !important;
+    }
+
+    .resume-wrap h2 {
+        font-size: 20px !important;
+    }
+
+    /* --- Hire-me / GitHub banner --- */
+    .ftco-hireme h2 {
+        font-size: 24px !important;
+    }
+
+    .ftco-hireme h4 {
+        font-size: 16px !important;
+    }
+
+    /* --- Contact Section --- */
+    .contact-section .box {
+        margin-bottom: 15px;
+    }
+
+    .contact-section .box h3 {
+        font-size: 15px;
+    }
+
+    .contact-section .box p,
+    .contact-section .box p a {
+        font-size: 13px;
+        word-break: break-word;
+    }
+
+    /* --- Have a Question heading --- */
+    .ftco-section .col-md-7.ftco-animate.text-center h2 {
+        font-size: 22px !important;
+    }
+
+    /* --- Footer --- */
+    .ftco-footer {
+        padding: 3em 0 !important;
+    }
+
+    .ftco-footer p {
+        font-size: 13px;
+    }
+
+    /* --- Section padding --- */
+    .ftco-section {
+        padding: 4em 0 !important;
+    }
+
+    /* --- Heading section --- */
+    .heading-section h2 {
+        font-size: 30px !important;
+    }
+
+    .heading-section h1.big {
+        font-size: 12vw !important;
+    }
+
+    /* --- Counter blocks --- */
+    .ftco-counter .block-18 {
+        padding: 20px 15px;
+        margin-bottom: 10px;
+    }
+
+    /* --- Buttons --- */
+    .btn {
+        font-size: 11px;
+        padding: 10px 20px !important;
+    }
+}
+
+/* ---------- Small phones (≤480px) ---------- */
+@media (max-width: 480px) {
+
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 26px !important;
+    }
+
+    .owl-carousel.home-slider .slider-item .slider-text h2 {
+        font-size: 14px !important;
+    }
+
+    #typing-animation {
+        font-size: 15px !important;
+    }
+
+    .hero-profile-img {
+        max-height: 250px;
+    }
+
+    .heading-section h2 {
+        font-size: 24px !important;
+    }
+
+    .skill-card {
+        padding: 15px;
+    }
+
+    .skill-pill {
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+
+    .ftco-hireme h2 {
+        font-size: 20px !important;
+    }
+
+    .ftco-hireme h4 {
+        font-size: 14px !important;
+    }
+
+    .ftco-footer-social li a {
+        height: 40px;
+        width: 40px;
+    }
+
+    .ftco-footer-social li a span {
+        font-size: 20px;
+    }
+}
