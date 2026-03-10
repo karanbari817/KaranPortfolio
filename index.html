@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Karan Kothalkar Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link rel="stylesheet" href="css/custom.css">
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Karan Kothalkar</a>
+            <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav nav ml-auto">
+                    <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+                    <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+                    <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Experience</span></a></li>
+                    <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
+                    <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home-section" class="hero">
+        <div class="home-slider  owl-carousel">
+            <div class="slider-item ">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row d-md-flex no-gutters slider-text justify-content-center" data-scrollax-parent="true">
+                        <div class="col-md-6 d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                            <div class="text pl-md-5">
+                                <span class="subheading">Hello!</span>
+                                <h1 class="mb-4 mt-3">I'm <span>Karan Kothalkar</span></h1>
+
+                                <!-- Element to contain animated typing -->
+                                <span id="typing-animation"></span>
+
+                                <script>
+                                    // Initialize the typing animation
+                                    const typingAnimationElement = document.getElementById('typing-animation');
+
+                                    // Create an array of typing text
+                                    const typingTexts = [
+                                        'Full Stack Web Developer  ',
+                                        'Java Full Stack Developer ',
+                                        'Spring Boot | React  ',
+                                    ];
+
+                                    // Create a function to display the typing animation for a given text
+                                    function playTypingAnimation(text) {
+                                        // Loop through each character and add it to the element
+                                        for (let i = 0; i < text.length; i++) {
+                                            setTimeout(() => {
+                                                typingAnimationElement.textContent += text[i];
+                                            }, i * 200); // Increase the delay to slow down the typing animation
+                                        }
+
+                                        // Once the animation is complete, reset the text and start over
+                                        setTimeout(() => {
+                                            typingAnimationElement.textContent = '';
+                                            playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                                        }, text.length * 200);
+                                    }
+
+                                    // Start the typing animation loop
+                                    playTypingAnimation(typingTexts[0]);
+                                </script>
+
+                                <br>
+                                <br>
+                                <h2>Full Stack Web Developer | Java Full Stack Developer | Spring Boot | React</h2>
+                                <!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+                                <!-- <br> -->
+                                <p><a href="https://www.instagram.com/Karan_bari143" class="btn btn-primary py-3 px-4">Instagram</a>
+                                    <a href="https://github.com/karanbari817" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 js-fullheight img" style="background-image:url(images/bg_1.png); background-size: contain; background-repeat: no-repeat; background-position: center bottom;">
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="row d-flex align-items-stretch">
+                    <!-- <div class="row d-flex"> -->
+                    <div class="col-md-6 col-lg-5 d-flex">
+                        <div class="img-about img d-flex align-items-stretch">
+                            <div class="overlay">
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <div class="about-img">
+                                            <img src="images/about-me.png" class="img-fluid rounded-circle b-shadow-a" style="aspect-ratio: 1 / 1; object-fit: cover; width: 150px; border: 4px solid #007bff; padding: 5px;" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <div class="about-info">
+                                            <p><span class="title-s">Name: </span> <span>Karan Kothalkar</span></p>
+                                            <p><span class="title-s">Job Role: </span> <span>Full Stack Web Developer | Java Full Stack Developer</span></p>
+                                            <p><span class="title-s">Experience: </span> <span>Fresher</span></p>
+                                            <p><span class="title-s">Address: </span> <span>Maharashtra, India</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+
+                                <h1 class="big">About</h1>
+                                <h2 class="mb-4">About Me</h2>
+
+                                <p> Seeking a challenging position as a Full Stack Web Developer in a reputable organization, where I can leverage my technical skills to contribute significantly to both the company's success and my professional growth.
+                                </p>
+                                <ul class="about-info mt-4 px-md-0 px-2">
+                                    <li class="d-flex"><span>Profile:</span> <span>Full Stack Web Developer | Java Full Stack Developer</span></li>
+                                    <li class="d-flex"><span>Domain:</span> <span>Web Development</span></li>
+                                    <li class="d-flex"><span>Education:</span> <span>Bachelor of Computer Science</span></li>
+                                    <li class="d-flex"><span>Language:</span> <span>English, Hindi, Marathi</span></li>
+                                    <li class="d-flex"><span>Other Skills:</span> <span>Git, Problem Solving, Agile Methodologies</span></li>
+                                    <li class="d-flex"><span>Interest:</span> <span>Coding, Learning new technologies, Traveling</span></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                            <div class="text">
+                                <p class="mb-4">
+                                    <span class="number" data-number="5">0</span>
+                                    <span>&nbsp; Projects completed</span>
+                                </p>
+                                <p><a href="https://www.linkedin.com/in/karankothalkar" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="ftco-section skills-section" id="skills-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-10 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Skills</h1>
+                    <h2 class="mb-4">Skills</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Languages -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skill-card">
+                        <div class="skill-card-title">
+                            <span class="skill-icon">💻</span> Languages
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill">C</span>
+                            <span class="skill-pill">C++</span>
+                            <span class="skill-pill">Java</span>
+                            <span class="skill-pill">C#</span>
+                            <span class="skill-pill">Shell Scripting</span>
+                            <span class="skill-pill">JavaScript</span>
+                            <span class="skill-pill">HTML</span>
+                            <span class="skill-pill">CSS</span>
+                            <span class="skill-pill">AJAX</span>
+                            <span class="skill-pill">XML</span>
+                            <span class="skill-pill">JSON</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks & Libs -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skill-card">
+                        <div class="skill-card-title">
+                            <span class="skill-icon">📦</span> Frameworks &amp; Libs
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill">Spring</span>
+                            <span class="skill-pill">Spring Boot</span>
+                            <span class="skill-pill">Spring MVC</span>
+                            <span class="skill-pill">Hibernate</span>
+                            <span class="skill-pill">React</span>
+                            <span class="skill-pill">Node.js</span>
+                            <span class="skill-pill">Express.js</span>
+                            <span class="skill-pill">.NET MVC</span>
+                            <span class="skill-pill">Bootstrap</span>
+                            <span class="skill-pill">JSTL</span>
+                            <span class="skill-pill">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend & DB -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skill-card">
+                        <div class="skill-card-title">
+                            <span class="skill-icon">🗄️</span> Backend &amp; DB
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill">Servlets</span>
+                            <span class="skill-pill">JSP</span>
+                            <span class="skill-pill">JDBC</span>
+                            <span class="skill-pill">REST APIs</span>
+                            <span class="skill-pill">Web Services</span>
+                            <span class="skill-pill">Microservices</span>
+                            <span class="skill-pill">Spring Data JPA</span>
+                            <span class="skill-pill">MySQL</span>
+                            <span class="skill-pill">PL/SQL</span>
+                            <span class="skill-pill">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & DevOps -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skill-card">
+                        <div class="skill-card-title">
+                            <span class="skill-icon">⚙️</span> Tools &amp; DevOps
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill">VS Code</span>
+                            <span class="skill-pill">Eclipse IDE</span>
+                            <span class="skill-pill">Visual Studio</span>
+                            <span class="skill-pill">MySQL Workbench</span>
+                            <span class="skill-pill">Postman</span>
+                            <span class="skill-pill">Git Bash</span>
+                            <span class="skill-pill">Git</span>
+                            <span class="skill-pill">GitHub</span>
+                            <span class="skill-pill">Maven</span>
+                            <span class="skill-pill">CI/CD</span>
+                            <span class="skill-pill">Windows</span>
+                            <span class="skill-pill">Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core & Testing -->
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="skill-card">
+                        <div class="skill-card-title">
+                            <span class="skill-icon">🎯</span> Core &amp; Testing
+                        </div>
+                        <div class="skill-pills">
+                            <span class="skill-pill">Data Structures &amp; Algorithms</span>
+                            <span class="skill-pill">OOP</span>
+                            <span class="skill-pill">Design Patterns</span>
+                            <span class="skill-pill">Agile</span>
+                            <span class="skill-pill">Scrum</span>
+                            <span class="skill-pill">Jira</span>
+                            <span class="skill-pill">UML</span>
+                            <span class="skill-pill">SDLC</span>
+                            <span class="skill-pill">JUnit</span>
+                            <span class="skill-pill">Selenium (Basics)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="ftco-section ftco-no-pb" id="resume-section">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-10 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Experience</h1>
+                    <h2 class="mb-4">Internships</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">Jan 2025 - Feb 2025</span>
+                        <h2>Core Java Training & Intern</h2>
+                        <span class="position">Friends Union For Energising Lives (FUEL), Pune</span>
+                        <p class="mt-4">Completed intensive Java training: built hands-on OOP projects covering inheritance, polymorphism, and collections. Enhanced soft skills, teamwork, and discipline through LinkedIn Learning and internship-based activities.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="resume-wrap ftco-animate">
+                        <span class="date">Sep 2024 - Oct 2024</span>
+                        <h2>Web Development Intern</h2>
+                        <span class="position">Zidio Development, Bengaluru</span>
+                        <p class="mt-4">Designed and shipped user-facing interfaces for collaborative web projects using HTML, CSS, and JavaScript. Strengthened front-end development skills while contributing to key projects and building a strong foundation in web development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 text-center ftco-animate">
+                    <p><a href="https://drive.google.com/file/d/1zFu1Wt9VUrAEhP1F521F8dLKS-TsOILx/view?usp=drive_link" class="btn btn-primary py-4 px-5">Download CV</a></p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <h1 class="big-4">Education</h1>
+            <div class="underline"></div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">2024-2026</span>
+                    <h2>Master of Computer Science</h2>
+                    <span class="position">Dr. Babasaheb Ambedkar Marathwada University, Ch.Sambhaji Nagar</span>
+                    <p class="mt-4">Pursuing..</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">2023-2024</span>
+                    <h2>Bachelor of Computer Science</h2>
+                    <span class="position">Dr. Babasaheb Ambedkar Marathwada University, Ch.Sambhaji Nagar</span>
+                    <p class="mt-4">Grade: First class distinction.</p>
+                    <p class="mt-4">Percentage: 71.43%</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="resume-wrap ftco-animate">
+                    <span class="date">2020-2021</span>
+                    <h2>Higher Secondary School</h2>
+                    <span class="position">Balaji Secondary &amp; Higher Secondary School Walsawangi, Maharashtra</span>
+                    <p class="mt-4">Grade: First class distinction.</p>
+                    <p class="mt-4">Percentage: 91.83%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section" id="project-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-5">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Projects</h1>
+                    <h2 class="mb-4">Projects</h2>
+                    <p>Below are sample projects I've built using Java, Servlets, and other web technologies.</p>
+                </div>
+            </div>
+
+            <div class="row d-flex">
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="https://github.com/karanbari817" class="block-20 zoom-effect" style="background-image: url('images/proj_2.jpg');"></a>
+                        <div class="text mt-3 float-right d-block">
+                            <h3 class="heading"><a href="https://github.com/karanbari817">E-Book Management on Web-App</a></h3>
+                            <p>The E-Book Management System is a web-based application designed to streamline the management of Books information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="https://github.com/karanbari817" class="block-20 zoom-effect" style="background-image: url('images/proj_1.jpg');"></a>
+                        <div class="text mt-3 float-right d-block">
+                            <h3 class="heading"><a href="https://github.com/karanbari817">Employee Management on Web-App</a></h3>
+                            <p>The Employee Management System is a web-based application designed to streamline the management of employee information.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="https://github.com/karanbari817" class="block-20 zoom-effect" style="background-image: url('images/proj_5.jpg');"></a>
+                        <div class="text mt-3 float-right d-block">
+                            <h3 class="heading"><a href="https://github.com/karanbari817">Hotel Management System</a></h3>
+                            <p>Developed a comprehensive Hotel Management System using Java Servlets, showcasing practical application of Java web development concepts.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="https://github.com/karanbari817" class="block-20 zoom-effect" style="background-image: url('images/proj_6.jpg');"></a>
+                        <div class="text mt-3 float-right d-block">
+                            <h3 class="heading"><a href="https://github.com/karanbari817">Music Player WebApp</a></h3>
+                            <p>Built a responsive Spotify clone with HTML, CSS, and JavaScript, featuring play, pause, and volume controls.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex ftco-animate">
+                    <div class="blog-entry justify-content-end">
+                        <a href="https://github.com/karanbari817" class="block-20 zoom-effect" style="background-image: url('images/proj_7.jpg');"></a>
+                        <div class="text mt-3 float-right d-block">
+                            <h3 class="heading"><a href="https://github.com/karanbari817">Smart Expense Tracker</a></h3>
+                            <p>A clean and simple React Expense Tracker that lets users add, view, filter, and delete expenses with a modern UI.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+        <div class="container">
+            <div class="row d-md-flex align-items-center">
+                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18">
+                        <div class="text">
+                            <strong class="number" data-number="5">0</strong>
+                            <span>Certificates</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18">
+                        <div class="text">
+                            <strong class="number" data-number="5">0</strong>
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18">
+                        <div class="text">
+                            <strong class="number" data-number="11">0</strong>
+                            <span>Skills Acquired</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+                    <div class="block-18">
+                        <div class="text">
+                            <strong class="number" data-number="100">0</strong>
+                            <span>Cups of coffee</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg); background-size: cover; background-position: center;">
+            <!-- <div class="container"> -->
+            <div class="row justify-content-center">
+                <div class="col-md-7 ftco-animate text-center">
+                    <h2> Also Follow me on<span> Github  </span> </h2>
+                    <div class="heading">
+                        <h4> I love to solve complex problems &amp; build scalable applications </h4>
+                        <br>
+                        <p><a href="https://github.com/karanbari817" class="btn btn-primary py-3 px-5">GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+
+
+    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Contact</h1>
+                    <h2 class="mb-4">Contact Me</h2>
+                    <p>Below are the details to reach out to me!</p>
+                </div>
+            </div>
+
+            <div class="row d-flex contact-info mb-5">
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-map-signs"></span>
+                        </div>
+                        <h3 class="mb-4">Address</h3>
+                        <p>Maharashtra, India</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-phone2"></span>
+                        </div>
+                        <h3 class="mb-4">Contact Number</h3>
+                        <p><a href="tel:+91 8421041256">+91 8421041256</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-paper-plane"></span>
+                        </div>
+                        <h3 class="mb-4">Email Address</h3>
+                        <p><a href="mailto:kothalkarkaran69@gmail.com">kothalkarkaran69@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="icon-globe"></span>
+                        </div>
+                        <h3 class="mb-4">Download Resume</h3>
+                        <p><a href="https://drive.google.com/file/d/1zFu1Wt9VUrAEhP1F521F8dLKS-TsOILx/view?usp=drive_link">Resume</a></p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <br>
+                    <br>
+                    <div class="row justify-content-center">
+                        <div class="col-md-7 ftco-animate text-center">
+                            <h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/e/1FAIpQLSe4EtYdQ2rOViYC3ELHc1JqPDCwFa1O1lyo6naSYqPyVj4WKA/viewform?usp=sf_link" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+                        </div>
+                    </div>
+                    <br>
+                    <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+                        <li class="ftco-animate normal-txt">Find me on </li>
+                        <li class="ftco-animate"><a href="https://www.linkedin.com/in/karankothalkar"><span class="icon-linkedin"></span></a></li>
+                        <li class="ftco-animate"><a href="https://twitter.com/karan_143_"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.facebook.com/share/1CgqTEyHeQ/"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.instagram.com/Karan_bari143"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                    <br>
+                </div>
+            </div>
+    </section>
+
+
+
+
+    <footer class="ftco-footer ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Karan Kothalkar</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html> 
